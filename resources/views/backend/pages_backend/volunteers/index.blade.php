@@ -2,6 +2,19 @@
 @section('title')
     Volunteers
 @endsection
+
+@section('extra_styles')
+
+ {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
+
+ <link href="{{ asset('assets/frontend_assets/language/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="{{ asset('assets/frontend_assets/language/jquery.min.js') }}"></script>
+
+
+@endsection
+
+
 @section('content')
     <!-- Main content dashboard  -->
     <div class="page-content">
@@ -135,4 +148,18 @@
     </div>
     <!-- container-fluid -->
     </div>
+@endsection
+
+@section('extra_scripts')
+   {{-- lang --}}
+<script type="text/javascript">
+    
+    var url = "{{ route('changeLang') }}";
+    
+    $(".changeLang").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
+    
+</script>
+
 @endsection

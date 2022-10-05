@@ -7,9 +7,9 @@
                 <div class="top-left clearfix">
                     <ul class="info clearfix">
                         <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692" style="color:#ffffff;"> Tel :
-                                +49 (0) 15210172509  | +256(0) 706-897541</a></li>
+                                +49 (0) 15210172509 | +256(0) 706-897541</a></li>
                         <li><span class="fa fa-envelope-open"></span> <a href="mailto:donations@example.org"
-                                style="color:#ffffff;">Nakiyingiassybahner@gmail.com  | info@precious-gifts.org</a></li>
+                                style="color:#ffffff;">Nakiyingiassybahner@gmail.com | info@precious-gifts.org</a></li>
                     </ul>
                 </div>
                 <div class="top-right clearfix">
@@ -52,9 +52,9 @@
                                 src="{{ asset('assets/frontend_assets/images/logo-2.png') }}" alt="Precious Gift"
                                 title="Precious Gift"></a></div> --}}
 
-                    <div class="logo" ><a href="/" title="Precious Gift"><img
+                    <div class="logo"><a href="/" title="Precious Gift"><img
                                 src="{{ asset('assets/frontend_assets/images/logosvg.svg') }}" alt="Precious Gift"
-                                title="Precious Gift" ></a></div>
+                                title="Precious Gift"></a></div>
                 </div>
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
@@ -64,26 +64,86 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="/">Home</a></li>
-                                <li class="dropdown"><a href="javascript::void(0)">Know Us</a>
+                                <li><a href="/">{{ GoogleTranslate::trans('Home', app()->getLocale()) }}</a></li>
+                                <li class="dropdown"><a
+                                        href="javascript::void(0)">{{ GoogleTranslate::trans('Know Us', app()->getLocale()) }}</a>
                                     <ul>
-                                        <li><a href="/about">About Us</a></li>
-                                        <li><a href="/works">What we do</a></li>
-                                        <li><a href="/our_team">Our Staff</a></li>
-                                        <li><a href="/join_volunteers/create">Voluteer</a></li>
-                                        <li><a href="/our_faqs">Faq's</a></li>
+                                        <li><a
+                                                href="/about">{{ GoogleTranslate::trans('About Us', app()->getLocale()) }}</a>
+                                        </li>
+                                        <li><a
+                                                href="/works">{{ GoogleTranslate::trans('What we do', app()->getLocale()) }}</a>
+                                        </li>
+
+                                        <li><a
+                                                href="/our_projects">{{ GoogleTranslate::trans('Projects', app()->getLocale()) }}</a>
+                                        </li>
+                                        <li><a
+                                                href="/articles">{{ GoogleTranslate::trans('News', app()->getLocale()) }}</a>
+                                        </li>
+                                        <li><a
+                                                href="/our_team">{{ GoogleTranslate::trans('Our Staff', app()->getLocale()) }}</a>
+                                        </li>
+                                        <li><a
+                                                href="/join_volunteers/create">{{ GoogleTranslate::trans('Voluteer', app()->getLocale()) }}</a>
+                                        </li>
+                                        <li><a
+                                                href="/our_faqs">{{ GoogleTranslate::trans('Faqs', app()->getLocale()) }}</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                <li><a href="/our_projects">Projects</a></li>
-                                <li><a href="/articles">News</a></li>
-                                <li class="dropdown"><a href="javascript::void(0)">Gallery</a>
+
+                                <li class="dropdown"><a
+                                        href="javascript::void(0)">{{ GoogleTranslate::trans('Gallery', app()->getLocale()) }}</a>
                                     <ul>
-                                        <li><a href="/pictures">Photos</a></li>
-                                        <li><a href="/video_gallery">Videos</a></li>
+                                        <li><a
+                                                href="/pictures">{{ GoogleTranslate::trans('Photos', app()->getLocale()) }}</a>
+                                        </li>
+                                        <li><a
+                                                href="/video_gallery">{{ GoogleTranslate::trans('Videos', app()->getLocale()) }}</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                 <li><a href="/impressum">Impressum</a></li>
-                                <li><a href="/contact/create">Contact</a></li>
+                                <li><a
+                                        href="/impressum">{{ GoogleTranslate::trans('Impressum', app()->getLocale()) }}</a>
+                                </li>
+                                <li><a
+                                        href="/contact/create">{{ GoogleTranslate::trans('Contact', app()->getLocale()) }}</a>
+                                </li>
+                                {{-- select language --}}
+                                <li>
+                                <li><a href="/">
+
+                                        <div class="row">
+                                            {{-- <div class="col-md-2">
+                                                <strong>Select Language: </strong>
+                                            </div> --}}
+                                            <div class="col-md-4">
+                                                <select class="form-select changeLang">
+                                                    <option value="en"
+                                                        {{ session()->get('locale') == 'en' ? 'selected' : '' }}>
+                                                        English
+                                                    </option>
+                                                    <option value="fr"
+                                                        {{ session()->get('locale') == 'fr' ? 'selected' : '' }}>
+                                                        France
+                                                    </option>
+                                                    <option value="es"
+                                                        {{ session()->get('locale') == 'es' ? 'selected' : '' }}>
+                                                        Spanish
+                                                    </option>
+                                                    <option value="de"
+                                                        {{ session()->get('locale') == 'de' ? 'selected' : '' }}>
+                                                        German
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                    </a></li>
+                                </li>
+                                {{-- end select language --}}
                             </ul>
                         </div>
                     </nav>
@@ -107,7 +167,7 @@
                         src="{{ asset('assets/frontend_assets/images/sticky-logo.png') }}" alt=""
                         title=""></a> --}}
 
-                        <h3><strong>PRECIOUS CHILD</strong></h3>
+                <h3><strong>PRECIOUS CHILD</strong></h3>
             </div>
             <!--Right Col-->
             <div class="pull-right">

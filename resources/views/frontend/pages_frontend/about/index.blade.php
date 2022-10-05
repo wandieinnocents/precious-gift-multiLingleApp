@@ -4,6 +4,19 @@
     About Us
 @endsection
 
+@section('extra_styles')
+
+ {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
+
+ <link href="assets/frontend_assets/language/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="assets/frontend_assets/language/jquery.min.js"></script>
+
+
+
+@endsection
+
+
 @section('content')
     <!-- content  -->
     <!-- Page Banner Section -->
@@ -12,7 +25,8 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>About Us</h1>
+      
+            <h1>  {{ GoogleTranslate::trans('About Us', app()->getLocale()) }}</h1>
         </div>
 
         <div class="breadcrumb-box">
@@ -55,7 +69,9 @@
                         <div class="sec-title">
                             <h2>About Us</h2>
                         </div>
-                        <div class="lower-text">Our organization is Located in the hills of Mityana District of Uganda is Mboona Village which
+                        <div class="lower-text">
+                        
+                        Our organization is Located in the hills of Mityana District of Uganda is Mboona Village which
                             serves as a hub to all all the 7 (Seven) villages which make kibale parish in bulera subcounty.
 
                             The village has got one water source which is also accessed by the other surrounding villages. A
@@ -71,7 +87,9 @@
 
                             In a summary, if Mboona catches a cough then the rest of the other community stands chance of
                             contamination simply because it serves as a hub. We are saying let’s give a ray of hope to these
-                            seven villages by uplifting the standards of Mboona Village.</div>
+                            seven villages by uplifting the standards of Mboona Village.
+                            
+                            </div>
                     </div>
                 </div>
                 <!--Image Column-->
@@ -195,4 +213,18 @@
             </div>
         </div>
     </section>
+@endsection
+
+@section('extra_scripts')
+   {{-- lang --}}
+<script type="text/javascript">
+    
+    var url = "{{ route('changeLang') }}";
+    
+    $(".changeLang").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
+    
+</script>
+
 @endsection
