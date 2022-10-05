@@ -112,7 +112,8 @@
                                 </li>
                                 {{-- select language --}}
                                 <li>
-                                <li><a href="/">
+                                
+                                <li><a href="javascript::void(0)">
 
                                         <div class="row">
                                             {{-- <div class="col-md-2">
