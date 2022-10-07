@@ -151,12 +151,13 @@ Kontaktiere uns
 
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                            </ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100076001763880"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://twitter.com/preciou99141595?s=09"><span class="fab fa-twitter"></span></a></li>
+                        <!--<li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>-->
+                        <!--<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>-->
+                        <li><a href="https://wa.me/256701651821/?text=Hello"><span class="fab fa-whatsapp"></span></a></li>
+                        <li><a href="https://instagram.com/preciousgift476?utm_medium=copy_link"><span class="fab fa-instagram"></span></a></li>
+                    </ul>
                         </div>
                     </div>
                     <!--Info Block-->
@@ -179,13 +180,14 @@ Kontaktiere uns
 
 
                             </ul>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                            </ul>
+                           <ul class="social-links clearfix">
+                        <li><a href="https://www.facebook.com/profile.php?id=100076001763880"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://twitter.com/preciou99141595?s=09"><span class="fab fa-twitter"></span></a></li>
+                        <!--<li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>-->
+                        <!--<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>-->
+                        <li><a href="https://wa.me/256701651821/?text=Hello"><span class="fab fa-whatsapp"></span></a></li>
+                        <li><a href="https://instagram.com/preciousgift476?utm_medium=copy_link"><span class="fab fa-instagram"></span></a></li>
+                    </ul>
                         </div>
                     </div>
 
