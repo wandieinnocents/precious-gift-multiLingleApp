@@ -61,7 +61,7 @@ Spenden
                     {{-- Uganda account --}}
                     <div class="inner">
                         {{-- German account --}}
-                        <h2># Uganda  Account</h2><br>
+                        <h2># Uganda-Konto</h2><br>
                        
                         <p class="text" style="margin-top:-30px;"><strong>NAME DES BEGÜNSTIGTEN:</strong>
                         Kostbares Entwicklungszentrum für Kinder
