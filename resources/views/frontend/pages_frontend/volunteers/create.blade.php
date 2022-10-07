@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    Volunteer
+Freiwillige
 @endsection
 
 @section('extra_styles')
@@ -25,13 +25,13 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Volunteers</h1>
+            <h1>Freiwillige</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Heim</a></li>
                     <li class="active">Volunteers</li>
                 </ul>
             </div>
@@ -62,15 +62,15 @@
 
             <div class="sec-title centered">
                 {{-- <div class="upper-icon"></div> --}}
-                <h2>Would like to Join Us?</h2>
-                <div class="text">Submit your data to become a volunteer </div>
+                <h2>Möchten Sie sich uns anschließen?</h2>
+                <div class="text">Senden Sie Ihre Daten, um ein Freiwilliger zu werden </div>
             </div>
             <div class="row clearfix">
                 <!--Form Column--->
                 <div class="form-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="shape-box">
-                            <h3>Working Together To Make A Difference</h3>
+                            <h3>Gemeinsam etwas bewegen</h3>
                         </div>
                         <div class="default-form contact-form">
                             @if(session()->has('message'))
@@ -83,7 +83,7 @@
                                 @csrf
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Full Name</div>
+                                        <div class="field-label">Vollständiger Name</div>
                                         <input type="text" name="volunteer_name" placeholder="" required="">
                                     </div>
 
@@ -93,48 +93,48 @@
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Phone</div>
+                                        <div class="field-label">Telefon</div>
                                         <input type="text" name="volunteer_phone" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Address</div>
+                                        <div class="field-label">Adresse</div>
                                         <input type="text" name="volunteer_address" placeholder="" required="">
                                     </div>
 
 
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Education Level</div>
+                                        <div class="field-label">Bildungsniveau</div>
                                         {{-- <input type="text" name="volunteer_level_of_education" placeholder="" required=""> --}}
                                         <select name="volunteer_level_of_education" class="form-select">
-                                            <option value="certificate">PLE</option>
-                                            <option value="certificate">Certificate</option>
-                                            <option value="diploma">Diploma</option>
-                                            <option value="masters">Masters</option>
-                                            <option value="phd">PHD</option>
-                                             <option value="phd">None</option>
+                                            <option value="certificate">BITTE</option>
+                                            <option value="certificate">Zertifikat</option>
+                                            <option value="diploma">Diplom</option>
+                                            <option value="masters">Meisterinnen</option>
+                                            <option value="phd">Promotion</option>
+                                             <option value="phd">Keiner</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Date of birth</div>
+                                        <div class="field-label">Geburtsdatum</div>
                                         <input type="date" name="volunteer_dob" placeholder="" required="">
                                     </div>
                                     <div class="col-md-12 col-sm-12 form-group">
-                                        <div class="field-label">Upload your Photo</div>
+                                        <div class="field-label">Dein Foto hochladen</div>
                                         <input type="file" class="form-control" name="volunteer_photo" placeholder=""
                                             required>
 
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
-                                        <div class="field-label">Message</div>
+                                        <div class="field-label">Nachricht</div>
                                         <textarea name="volunteer_reason_to_join" placeholder="Write your message"></textarea>
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
                                         <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span
-                                                class="btn-title">Send Message</span></button>
+                                                class="btn-title">Nachricht senden</span></button>
                                     </div>
                                 </div>
                             </form>

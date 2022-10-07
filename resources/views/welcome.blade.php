@@ -1,15 +1,10 @@
 @extends('frontend.layouts_frontend.master')
 @section('title')
-    Home - Precious Gift
+    Heim - Wertvolles Geschenk
 @endsection
 
 @section('extra_styles')
 
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="assets/frontend_assets/language/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="assets/frontend_assets/language/jquery.min.js"></script>
 
 
 
@@ -33,8 +28,7 @@
                                 <div class="icon"><span class="flaticon-care"></span></div>
                                 <h3>Mission</h3>
                                 <div class="text">
-                                    To Love and Care for the vulnerable Children to develop socially,
-                                    physically, Economically and spiritualy into responsible people/ citizens.
+                                    sDie gefährdeten Kinder zu lieben und zu pflegen, um sich sozial, körperlich, wirtschaftlich und spirituell zu verantwortungsbewussten Menschen/Bürgern zu entwickeln.
                                 </div>
                             </div>
                         </div>
@@ -45,7 +39,7 @@
                             <div class="inner">
                                 <div class="icon"><span class="flaticon-pigeon"></span></div>
                                 <h3>Vision</h3>
-                                <div class="text">To serve as children advocates to enable them lead better lives.​</div>
+                                <div clasVisions="text">Als Kinderanwälte zu dienen, damit sie ein besseres Leben führen können.​</div>
                             </div>
                         </div>
                     </div>
@@ -54,8 +48,8 @@
                         <div class="inner-box">
                             <div class="inner">
                                 <div class="icon"><span class="flaticon-harvest"></span></div>
-                                <h3>Core Values</h3>
-                                <div class="text">Integrity, Stewardship, Excellence, and Dignity.​</div>
+                                <h3>Grundwerte</h3>
+                                <div class="text">Integrität, Führung, Exzellenz und Würde.​</div>
                             </div>
                         </div>
                     </div>
@@ -71,24 +65,24 @@
                 <div class="text-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title"> Get to Know</div>
-                            <h2>Our Background</h2>
+                            <div class="sub-title"> Kennenlernen</div>
+                            <h2>Unser Hintergrund</h2>
                         </div>
                         <div class="text">
-                            Precious Child Development Centre is an organization based in a rural area and its major aim is
-                            helping the vulnerable children and the community at large (in poverty stricken households) so
-                            as to enhance development and to improve livelihoods. PCDC operates in Kibale Parish, Bulera
-                            Sub-County in Mityana District and Kakiri in Wakiso District in Uganda.
+                        Das Precious Child Development Center ist eine Organisation mit Sitz in einer ländlichen Gegend und ihr Hauptziel ist es
+                             den gefährdeten Kindern und der Gemeinschaft insgesamt (in von Armut betroffenen Haushalten) zu helfen
+                             um die Entwicklung zu fördern und die Lebensgrundlagen zu verbessern. PCDC arbeitet in Kibale Parish, Bulera
+                             Sub-County im Distrikt Mityana und Kakiri im Distrikt Wakiso in Uganda.
                         </div><br>
                         <div class="text">
-                            Kibaale Parish is located in Bulera sub-county, Mityana district of the republic of Uganda, 20km
-                            from Mityana Taxi Park. The parish serves as a hub for ten villages of Buleeya, Bulwanyamayinja,
-                            Bombo, Buligiya, Buwalantaama, Nalulangadde, Lubanyi, Kigabi, Kayunga, and Lusaana. The Parish
-                            is identified with scarce poor water sources, poor accommodation, poor sanitation, and high
-                            numbers of school dropouts and young mothers. A primary school which gives foundation to the
-                            rest of the villages and a small healthy centre with limited out patient services which
-                            according to the community was donated by area Member of Parliament also serving the rest of the
-                            communities.
+                        Die Gemeinde Kibaale befindet sich im Unterbezirk Bulera im Distrikt Mityana in der Republik Uganda, 20 km entfernt
+                             vom Taxipark Mityana. Die Gemeinde dient als Knotenpunkt für die zehn Dörfer Buleeya, Bulwanyamayinja,
+                             Bombo, Buligiya, Buwalantaama, Nalulangadde, Lubanyi, Kigabi, Kayunga und Lusaana. Die Pfarrei
+                             wird mit knappen schlechten Wasserquellen, schlechten Unterkünften, schlechten sanitären Einrichtungen und hoch identifiziert
+                             Zahl der Schulabbrecher und jungen Mütter. Eine Grundschule, die den Grundstein legt
+                             Rest der Dörfer und ein kleines Gesundheitszentrum mit begrenzten Patientendiensten
+                             Nach Angaben der Gemeinde wurde der Bereich von Parlamentsabgeordneten gespendet, die auch den Rest der dienen
+                             Gemeinschaften.
                         </div><br>
                         <div class="text">
                             The core values of the organization are integrity, stewardship, excellence, and dignity. Our
@@ -116,13 +110,13 @@
                 <div class="row clearfix">
                     <div class="text-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner">
-                            <h2>You can be part of <br>Our organization</h2>
-                            <div class="text">PRECIOUS GIFT E.V is a community based organisation aimed to carry out the
-                                developments of Kibale Parish, Bulera Sub-County, Mityana district in Uganda.
+                            <h2>Du kannst dabei sein<br>Unsere Organisation</h2>
+                            <div class="text">PRECIOUS GIFT E.V ist eine gemeinschaftsbasierte Organisation mit dem Ziel, die
+                                 Entwicklungen in Kibale Parish, Bulera Sub-County, Mityana District in Uganda.
                             </div> <br>
-                            <div class="text">PRECIOUS GIFT E.V also helps people who are living with ALBINISM in Uganda.
-                                They need alot of help in many different fields because there is too much discrimination on
-                                them, Also daily special sun cream, specia sun glasses, hats, etc.
+                            <div class="text">PRECIOUS GIFT e.V. hilft auch Menschen, die mit Albinismus in Uganda leben.
+                                 Sie brauchen viel Hilfe in vielen verschiedenen Bereichen, weil es zu viele Diskriminierungen gibt
+                                 ihnen, auch täglich spezielle Sonnencreme, spezielle Sonnenbrillen, Hüte usw.
                             </div>
                         </div>
                     </div>
@@ -142,7 +136,7 @@
                                     <div class="inner-box">
                                         <div class="count-box"><span class="count-text" data-speed="1500"
                                                 data-stop="306">0</span></div>
-                                        <div class="counter-title">Causes Solved</div>
+                                        <div class="counter-title">Ursachen gelöst</div>
                                     </div>
                                 </div>
                                 <!--Column-->
@@ -150,7 +144,7 @@
                                     <div class="inner-box">
                                         <div class="count-box"><span class="count-text" data-speed="1500"
                                                 data-stop="14">0</span></div>
-                                        <div class="counter-title">Volunteers</div>
+                                        <div class="counter-title">Freiwillige</div>
                                     </div>
                                 </div>
                                 <!--Column-->
@@ -159,7 +153,7 @@
                                     <div class="inner-box">
                                         <div class="count-box"><span class="count-text" data-speed="3000"
                                                 data-stop="12">0</span></div>
-                                        <div class="counter-title">Projects Done</div>
+                                        <div class="counter-title">Projekte erledigt</div>
                                     </div>
                                 </div>
                             </div>
@@ -232,16 +226,16 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
-                    <h2>Fundraise To Help A Child Today</h2>
-                    <p>We offer assistance to a large number of children in Uganda, your assistance means alot to us,
-                        <br>Help a child by offering to donate anything.
-                    </p>
+                    <h2>Spenden sammeln, um heute einem Kind zu helfen</h2>
+                    <p>Wir bieten einer großen Anzahl von Kindern in Uganda Hilfe an, Ihre Hilfe bedeutet uns sehr viel,
+                        <br>Helfen Sie einem Kind, indem Sie ihm anbieten, etwas zu spenden.
+                     </p>,
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
                         <a href="{{ route('contact.create') }}" class="theme-btn btn-style-one"><span
-                                class="btn-title">Talk to Us
-                                Today!</span></a>
+                                class="btn-title">Rede mit uns
+                                 Heute!</span></a>
                     </div>
                 </div>
             </div>
@@ -348,13 +342,13 @@
             <div class="row clearfix">
                 <div class="title-column col-xl-6 col-lg-6 col-md-12">
                     <div class="sec-title">
-                        <div class="sub-title"></span> Get updates on our works, </div>
-                        <h2>Read The Articles</h2>
+                        <div class="sub-title"></span> Erhalten Sie Updates zu unseren Arbeiten, </div>
+                        <h2>RLesen Sie die Artikel</h2>
                     </div>
                 </div>
                 <div class="link-column col-xl-6 col-lg-6 col-md-12">
                     <div class="link-box"><a href="/articles" class="theme-btn btn-style-one"><span class="btn-title"
-                                style="background-color:red;">More articles</span></a></div>
+                                style="background-color:red;">Weitere Artikel</span></a></div>
                 </div>
             </div>
             <div class="row clearfix">
@@ -420,15 +414,6 @@
 @endsection
 
 @section('extra_scripts')
-   {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
+
 
 @endsection

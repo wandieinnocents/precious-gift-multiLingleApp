@@ -1,16 +1,10 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    Donate
+Spenden
 @endsection
 
 @section('extra_styles')
-
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="{{ asset('assets/frontend_assets/language/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="{{ asset('assets/frontend_assets/language/jquery.min.js') }}"></script>
 
 
 @endsection
@@ -24,13 +18,13 @@
             style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-title1.png') }});"></div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Donate</h1>
+            <h1>Spenden</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Heim</a></li>
                     <li class="active">Donate</li>
                 </ul>
             </div>
@@ -51,13 +45,13 @@
                 <!--Text Column-->
                 <div class="text-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
-                        {{-- German account --}}
-                        <h2>Donation</h2>
-                        <div class="text">We use the donations to support the community and make this world a better place
-                            , we work as a team to deliver the best to the world.</div>
-                        <p class="text" style="margin-top:-30px;"><strong>BENEFICIARY NAME </strong>: Precious Gift e. V.
+                    {{-- Deutsches Konto --}}
+                        <h2>Spende</h2>
+                        <div class="text">Wir verwenden die Spenden, um die Gemeinschaft zu unterstützen und diese Welt zu einem besseren Ort zu machen
+                             , arbeiten wir als Team daran, der Welt das Beste zu liefern.</div>
+                        <p class="text" style="margin-top:-30px;"><strong>NAME DES BEGÜNSTIGTEN </strong>: Kostbares Geschenk e. v.
                         </p>
-                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Deutsche Postbank AG​</p>
+                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Deutsche PostbankAG​</p>
                         <p class="text" style="margin-top:-40px;"><strong>IBAN</strong>: DE90100100100941776103​</p>
                         <p class="text" style="margin-top:-40px;"><strong>BIC</strong>: PBNKDEFF​
 
@@ -69,10 +63,10 @@
                         {{-- German account --}}
                         <h2># Uganda  Account</h2><br>
                        
-                        <p class="text" style="margin-top:-30px;"><strong>BENEFICIARY NAME :</strong>
-                        Precious child development Center
+                        <p class="text" style="margin-top:-30px;"><strong>NAME DES BEGÜNSTIGTEN:</strong>
+                        Kostbares Entwicklungszentrum für Kinder
                         </p>
-                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Equity Bank​</p>
+                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Aktienbank​</p>
                         <p class="text" style="margin-top:-40px;"><strong>IBAN</strong>: 101612244659</p>
 
                         </p>
@@ -83,14 +77,14 @@
                     <div class="accordion-box">
                         <!--Block-->
                         <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> How to donate<div
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> So spenden Sie<div
                                     class="icon flaticon-cross"></div>
                             </div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">To make a donation , use the account numbers on our platform , the
-                                        beneficiary name is Precious Gift e. V then make a donation which will go to
-                                        precious child account.</div>
+                                    <div class="text">Um zu spenden, verwenden Sie die Kontonummern auf unserer Plattform, die
+                                         Name des Begünstigten ist Precious Gift e. V machen dann eine Spende, die an geht
+                                         wertvolles Kinderkonto.</div>
                                 </div>
                             </div>
                         </div>
@@ -99,12 +93,12 @@
 
                         <!--Block-->
                         <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Payment Platforms <div
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Zahlungsplattformen<div
                                     class="icon flaticon-cross"></div>
                             </div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">We use bank to make direct deposits for the donations.</div>
+                                    <div class="text">Wir verwenden die Bank, um direkte Einzahlungen für die Spenden vorzunehmen.</div>
                                 </div>
                             </div>
                         </div>
@@ -122,14 +116,6 @@
 
 @section('extra_scripts')
    {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
+
 
 @endsection

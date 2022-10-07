@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    Our Team
+Unser Team
 @endsection
 
 @section('extra_styles')
@@ -46,8 +46,8 @@
 
         <div class="sec-title centered">
             {{-- <div class="upper-icon"></div> --}}
-            <h2> International Staff</h2>
-            <div class="text">Our International staff members</div>
+            <h2> Internationales Personal</h2>
+            <div class="text">Unsere internationalen Mitarbeiter</div>
         </div>
 
         <div class="auto-container">
@@ -80,8 +80,8 @@
     {{-- INTERNATIONAL STAFF --}}
      <div class="sec-title centered">
             {{-- <div class="upper-icon"></div> --}}
-            <h2>Local</h2>
-            <div class="text">Our Local members</div>
+            <h2>Lokal</h2>
+            <div class="text">Unsere lokalen Mitglieder</div>
         </div>
 
         <div class="auto-container">

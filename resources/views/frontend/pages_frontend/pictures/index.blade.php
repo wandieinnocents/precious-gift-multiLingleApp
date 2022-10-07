@@ -1,6 +1,6 @@
 @extends('frontend.layouts_frontend.master')
 @section('title')
-    Photo Gallery
+Galerie
 @endsection
 @section('extra_styles')
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,12 +20,7 @@
 
 
 
-    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
 
-    <link href="{{ asset('assets/frontend_assets/language/css/bootstrap.min.css') }}" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <script src="{{ asset('assets/frontend_assets/language/jquery.min.js') }}"></script>
 @endsection
 
 
@@ -39,13 +34,13 @@
             style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-title3.png') }});">
         </div>
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Gallery</h1>
+            <h1>Galerie</h1>
         </div>
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
-                    <li class="active">Photos</li>
+                    <li><a href="/">Heim</a></li>
+                    <li class="active">Fotos</li>
                 </ul>
             </div>
         </div>
@@ -54,15 +49,15 @@
     <section class="activity-section">
         <div class="auto-container" style="margin-top:-60px;">
             <div class="sec-title centered">
-                <h2>Animal Saving Activities</h2>
-                <div class="text">We believe what we achieve</div>
+                <h2>Tierschutzaktivitäten</h2>
+                <div class="text">Wir glauben, was wir erreichen</div>
             </div>
             {{-- TABS --}}
             <ul class="nav nav-pills justify-content-center" style="align:center;">
                 <li class="active"><a data-toggle="pill" href="#all">ALL </a></li>
-                <li><a data-toggle="pill" href="#school">School </a></li>
-                <li><a data-toggle="pill" href="#workshop">Workshop</a></li>
-                <li><a data-toggle="pill" href="#education">Education</a></li>
+                <li><a data-toggle="pill" href="#school">Werkstatt </a></li>
+                <li><a data-toggle="pill" href="#workshop">Werkstatt</a></li>
+                <li><a data-toggle="pill" href="#education">Ausbildung</a></li>
             </ul>
             <div style="height:30px;"></div>
             <div class="tab-content">
@@ -199,11 +194,5 @@
 
 @section('extra_scripts')
     {{-- lang --}}
-    <script type="text/javascript">
-        var url = "{{ route('changeLang') }}";
-
-        $(".changeLang").change(function() {
-            window.location.href = url + "?lang=" + $(this).val();
-        });
-    </script>
+   
 @endsection

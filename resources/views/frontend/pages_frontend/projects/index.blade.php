@@ -1,16 +1,11 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    Projects
+Projekte
 @endsection
 
 @section('extra_styles')
 
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="assets/frontend_assets/language/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="assets/frontend_assets/language/jquery.min.js"></script>
 
 
 
@@ -25,14 +20,14 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Projects</h1>
+            <h1>Projekte</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
-                    <li class="active">Projects</li>
+                    <li><a href="/">Heim</a></li>
+                    <li class="active">Projekte</li>
                 </ul>
             </div>
         </div>
@@ -43,7 +38,7 @@
         <div class="auto-container">
             <div class="row clearfix">
 
-                {{-- FETCH PROJECTS --}}
+            {{-- PROJEKTE ABRUFEN --}}
                 @foreach ($projects as $project)
                     <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms"
@@ -63,7 +58,7 @@
                                 <div class="text">{{ $project->project_description }}</div>
                             </div>
                             <div class="link-box"><a href="our_projects/{{ $project->id }}"
-                                    class="theme-btn btn-style-two"><span class="btn-title">View Details</span></a></div>
+                                    class="theme-btn btn-style-two"><span class="btn-title">Details anzeigen</span></a></div>
                         </div>
                     </div>
                 @endforeach
@@ -75,15 +70,6 @@
 @endsection
 
 @section('extra_scripts')
-   {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
+
 
 @endsection

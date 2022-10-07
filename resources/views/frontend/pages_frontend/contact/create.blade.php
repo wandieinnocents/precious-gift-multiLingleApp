@@ -1,16 +1,10 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    Contact Us
+Kontaktiere uns
 @endsection
 
 @section('extra_styles')
-
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="{{ asset('assets/frontend_assets/language/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="{{ asset('assets/frontend_assets/language/jquery.min.js') }}"></script>
 
 
 @endsection
@@ -25,14 +19,14 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Contact Us</h1>
+            <h1>Kontaktiere uns</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
-                    <li class="active">Contact Us</li>
+                    <li><a href="/">Heim</a></li>
+                    <li class="active">Kontaktiere uns</li>
                 </ul>
             </div>
         </div>
@@ -62,15 +56,15 @@
 
             <div class="sec-title centered">
                 {{-- <div class="upper-icon"></div> --}}
-                <h2>Have any inquiry?</h2>
-                <div class="text">Leave us a message </div>
+                <h2>Haben Sie eine Anfrage?</h2>
+                <div class="text">Hinterlassen Sie uns eine Nachricht </div>
             </div>
             <div class="row clearfix">
                 <!--Form Column--->
                 <div class="form-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="shape-box">
-                            <h3>Working Together To Make A Difference</h3>
+                            <h3>Gemeinsam etwas bewegen</h3>
                         </div>
                         <div class="default-form contact-form">
                             @if(session()->has('message'))
@@ -83,7 +77,7 @@
                                 @csrf
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Your Name</div>
+                                        <div class="field-label">Ihren Namen</div>
                                         <input type="text" name="name" placeholder="" required="">
                                     </div>
 
@@ -93,23 +87,23 @@
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Phone</div>
+                                        <div class="field-label">Telefon</div>
                                         <input type="text" name="phone" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">subject</div>
+                                        <div class="field-label">Thema</div>
                                         <input type="text" name="subject" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
-                                        <div class="field-label">Message</div>
+                                        <div class="field-label">Nachricht</div>
                                         <textarea name="description" placeholder="Write your message"></textarea>
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
                                         <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span
-                                                class="btn-title">Send Message</span></button>
+                                                class="btn-title">Nachricht senden</span></button>
                                     </div>
                                 </div>
                             </form>
@@ -141,18 +135,18 @@
                     <!--Info Block-->
                     <div class="info-block bg-blue col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>German</h3>
+                            <h3>Deutsch</h3>
                             <ul class="info">
                                 <br> 
                                 <li><span class="fa fa-user"></span>Assy Kanya Nakiyingi Bahner </li>
                                 <li><span class="fa fa-map-marker-alt"></span>
-                                    Friedrich-Heller str. 15
+                                Friedrich-Hellerstr. fünfzehn
                                 </li>
                                 <li><span class="fa fa-phone-alt"></span> 
-                                <a href="tel:+49 (0) 15210172509">Phone :+49 (0) 15210172509 </a></li>
+                                <a href="tel:+49 (0) 15210172509">Telefon: +49 (0) 15210172509 </a></li>
                                  <li><span class="fa fa-envelope-open"></span>
-                                     Nakiyingiassybahner@gmail.com
-                                </li>
+                                 Nakiyingiassybahner@gmail.com
+                                  </li>
 
 
                             </ul>
@@ -172,15 +166,15 @@
                             <ul class="info">
                               
                                 
-                                <li><span class="fa fa-map-marker-alt"></span>P.O Box 180027 Mityana , Uganda </li>
+                                <li><span class="fa fa-map-marker-alt"></span>Postfach 180027 Mityana, Uganda</li>
                                 <li><span class="fa fa-map-marker-alt"></span>
-                                    Bulera, Mityana Uganda
+                                Bulera, Mityana Uganda
                                 </li>
                                 <li><span class="fa fa-phone-alt"></span> 
-                                <a href="tel:+256 (0) 706-897541">Phone :+256(0) 706-897541 </a></li>
-                                <li><a href="tel:+256 (0) 706-897541">Fax : +256 (0) 706-897541</a></li>
+                                <a href="tel:+256 (0) 706-897541">Telefon: +256(0) 706-897541 </a></li>
+                                <li><a href="tel:+256 (0) 706-897541">Fax: +256 (0) 706-897541</a></li>
                                  <li><span class="fa fa-envelope-open"></span>
-                                     info@precious-gifts.org
+                                 info@kostbare-geschenke.org
                                 </li>
 
 
@@ -217,14 +211,6 @@
 
 @section('extra_scripts')
    {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
+
 
 @endsection

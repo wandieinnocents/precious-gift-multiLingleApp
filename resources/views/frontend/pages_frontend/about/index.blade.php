@@ -1,18 +1,12 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    About Us
+Über uns
 @endsection
 
 @section('extra_styles')
 
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="assets/frontend_assets/language/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="assets/frontend_assets/language/jquery.min.js"></script>
-
-
+ 
 
 @endsection
 
@@ -26,14 +20,14 @@
 
         <div class="auto-container" style="margin-top:70px;">
       
-            <h1>  {{ GoogleTranslate::trans('About Us', app()->getLocale()) }}</h1>
+            <h1>  Über uns</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
-                    <li class="active">About</li>
+                    <li><a href="/">Heim</a></li>
+                    <li class="active">AKampf</li>
                 </ul>
             </div>
         </div>
@@ -67,27 +61,11 @@
                 <div class="text-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <h2>About Us</h2>
+                            <h2>Über uns</h2>
                         </div>
                         <div class="lower-text">
                         
-                        Our organization is Located in the hills of Mityana District of Uganda is Mboona Village which
-                            serves as a hub to all all the 7 (Seven) villages which make kibale parish in bulera subcounty.
-
-                            The village has got one water source which is also accessed by the other surrounding villages. A
-                            primary school which gives foundation to all the rest of the villages is also in Mboona Village.
-                            To add on that is a small health center with a capacity of admitting one patient at time which
-                            according to the community was donated by the area member of parliament which too serves the
-                            rest of the communities around.
-
-                            Just to note, at the time when we visited Mboona Village we found the health center closed
-                            simply because the two nurses had also been sick and one admitted. This tells you the condition
-                            of the community. Imagine what happens to the patients if the doctors too are admitted and no
-                            one is left to attend to the patients? The answer is yours to think about.
-
-                            In a summary, if Mboona catches a cough then the rest of the other community stands chance of
-                            contamination simply because it serves as a hub. We are saying let’s give a ray of hope to these
-                            seven villages by uplifting the standards of Mboona Village.
+                        Unsere Organisation befindet sich in den Hügeln des Distrikts Mityana in Uganda, im Dorf Mboona, das als Drehscheibe für alle 7 (sieben) Dörfer dient, die die Gemeinde Kibale im Unterbezirk Bulera bilden. Das Dorf hat eine Wasserquelle, die auch von den anderen umliegenden Dörfern erschlossen wird. In Mboona Village befindet sich auch eine Grundschule, die allen anderen Dörfern die Grundlage gibt. Hinzu kommt ein kleines Gesundheitszentrum mit der Kapazität, jeweils einen Patienten aufzunehmen, das nach Angaben der Gemeinde von dem Abgeordneten der Region gespendet wurde, der auch den übrigen Gemeinden in der Umgebung dient. Nur zur Erinnerung: Als wir das Dorf Mboona besuchten, fanden wir das Gesundheitszentrum geschlossen, nur weil die beiden Krankenschwestern auch krank waren und eine eingeliefert wurde. Dies gibt Auskunft über den Zustand der Gemeinde. Stellen Sie sich vor, was mit den Patienten passiert, wenn auch die Ärzte aufgenommen werden und niemand mehr da ist, um sich um die Patienten zu kümmern? Über die Antwort müssen Sie nachdenken. Zusammenfassend lässt sich sagen, dass, wenn Mboona hustet, der Rest der anderen Gemeinschaft Gefahr läuft, sich anzustecken, einfach weil es als Drehscheibe dient. Wir sagen, geben wir diesen sieben Dörfern einen Hoffnungsschimmer, indem wir die Standards von Mboona Village erhöhen.
                             
                             </div>
                     </div>
@@ -104,17 +82,17 @@
                 <div class="text-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="lower-text">
-                            Precious Child Development Centre is an organization based in a rural area
-                            and its major aim is helping the vulnerable children and the community at large (in poverty
-                            stricken households) so as to enhance development and to improve livelihoods. PCDC operates in
-                            Kibale Parish, Bulera Sub-County in Mityana District and Kakiri in Wakiso District in Uganda.
+                        Das Precious Child Development Center ist eine Organisation mit Sitz in einer ländlichen Gegend
+                            und sein Hauptziel ist es, den gefährdeten Kindern und der Gemeinschaft im Allgemeinen (in Armut) zu helfen
+                            betroffene Haushalte), um die Entwicklung zu fördern und die Lebensgrundlagen zu verbessern. PCDC ist tätig in
+                            Kibale Parish, Bulera Sub-County im Distrikt Mityana und Kakiri im Distrikt Wakiso in Uganda.
 
-                            Kibaale Parish is located in Bulera sub-county, Mityana district of the republic of Uganda, 20km
-                            from Mityana Taxi Park. The parish serves as a hub for ten villages of Buleeya, Bulwanyamayinja,
-                            Bombo, Buligiya, Buwalantaama, Nalulangadde, Lubanyi, Kigabi, Kayunga, and Lusaana. The Parish
-                            is identified with scarce poor water sources, poor accommodation, poor sanitation, and high
-                            numbers of school dropouts and young mothers. A primary school which gives foundation to the
-                            rest of the villages and a small healthy centre
+                            Die Gemeinde Kibaale befindet sich im Unterbezirk Bulera im Distrikt Mityana in der Republik Uganda, 20 km entfernt
+                            vom Taxipark Mityana. Die Gemeinde dient als Knotenpunkt für die zehn Dörfer Buleeya, Bulwanyamayinja,
+                            Bombo, Buligiya, Buwalantaama, Nalulangadde, Lubanyi, Kigabi, Kayunga und Lusaana. Die Pfarrei
+                            wird mit knappen schlechten Wasserquellen, schlechten Unterkünften, schlechten sanitären Einrichtungen und hoch identifiziert
+                            Zahl der Schulabbrecher und jungen Mütter. Eine Grundschule, die den Grundstein legt
+                            Rest der Dörfer und ein kleines gesundes Zentrum
                         </div>
                     </div>
                 </div>
@@ -123,21 +101,21 @@
                     <div class="inner">
 
                         <div class="lower-text">
-                            with limited out patient services which
-                            according to the community was donated by area Member of Parliament also serving the rest of the
-                            communities. The core values of the organization are integrity, stewardship, excellence, and
-                            dignity. Our
-                            objectives are To educate, support and monitor the registered children and their families
-                            towards a sustainable healthy and development.
+                        mit begrenzten Patientendiensten, die
+                            Nach Angaben der Gemeinde wurde der Bereich von Parlamentsabgeordneten gespendet, die auch den Rest der dienen
+                            Gemeinschaften. Die Kernwerte der Organisation sind Integrität, Verantwortung, Exzellenz und
+                            Würde. Unser
+                            Ziele sind die Bildung, Unterstützung und Überwachung der registrierten Kinder und ihrer Familien
+                            hin zu einer nachhaltigen Gesundheit und Entwicklung.
 
-                            To serve as children advocate in all spheres of life. We shall pursue our objectives basing on,
-                            Physical and health development Social and health development Cognitive livelihood and education
-                            development
+                            Als Fürsprecher für Kinder in allen Lebensbereichen tätig zu sein. Wir verfolgen unsere Ziele basierend auf
+                            Körperliche und gesundheitliche Entwicklung Soziale und gesundheitliche Entwicklung Kognitiver Lebensunterhalt und Bildung
+                            Entwicklung
 
-                            PCDC provides clothes to the children, pays school fees for the children under the organization,
-                            provide scholastic materials that are needed by the children. we at PCDC also help the disabled
-                            children and women, the ederly within the community so as to give them hope and joy so that they
-                            also know that there is someone who thinks about them and loves them too.</div>
+                            PCDC stellt den Kindern Kleidung zur Verfügung, zahlt Schulgeld für die Kinder im Rahmen der Organisation,
+                            Unterrichtsmaterialien bereitstellen, die von den Kindern benötigt werden. Wir von PCDC helfen auch Behinderten
+                            Kinder und Frauen, die Senioren innerhalb der Gemeinschaft, um ihnen Hoffnung und Freude zu geben, damit sie
+                            auch wissen, dass es jemanden gibt, der an sie denkt und sie auch liebt.</div>
                     </div>
                 </div>
             </div>
@@ -158,7 +136,7 @@
                         <div class="inner-box">
                             <div class="count-box"><span class="count-text" data-speed="3000" data-stop="30">0</span>
                             </div>
-                            <div class="counter-title">CITIES</div>
+                            <div class="counter-title">STÄDTE</div>
                         </div>
                     </div>
 
@@ -167,7 +145,7 @@
                         <div class="inner-box">
                             <div class="count-box"><span class="count-text" data-speed="306" data-stop="306">0</span>
                             </div>
-                            <div class="counter-title">Causes Solved</div>
+                            <div class="counter-title">Ursachen gelöst</div>
                         </div>
                     </div>
 
@@ -176,7 +154,7 @@
                         <div class="inner-box">
                             <div class="count-box"><span class="count-text" data-speed="3000" data-stop="14">0</span>
                             </div>
-                            <div class="counter-title">Volunteers</div>
+                            <div class="counter-title">Freiwillige</div>
                         </div>
                     </div>
 
@@ -185,7 +163,7 @@
                         <div class="inner-box">
                             <div class="count-box"><span class="count-text" data-speed="3000" data-stop="12">0</span>
                             </div>
-                            <div class="counter-title">Projects Done</div>
+                            <div class="counter-title">Projekte erledigt</div>
                         </div>
                     </div>
                 </div>
@@ -202,12 +180,12 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
-                    <h2>Become a our Community to Change the world</h2>
+                    <h2>Werde eine unserer Community, um die Welt zu verändern</h2>
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to
-                                Volunteer</span></a>
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">beitreten zu
+                        Freiwillige</span></a>
                     </div>
                 </div>
             </div>
@@ -217,14 +195,6 @@
 
 @section('extra_scripts')
    {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
+
 
 @endsection

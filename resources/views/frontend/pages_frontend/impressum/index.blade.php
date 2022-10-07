@@ -6,12 +6,6 @@
 
 @section('extra_styles')
 
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="{{ asset('assets/frontend_assets/language/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="{{ asset('assets/frontend_assets/language/jquery.min.js') }}"></script>
-
 
 @endsection
 
@@ -29,7 +23,7 @@
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Heim</a></li>
                     <li class="active">Impressum</li>
                 </ul>
             </div>
@@ -67,38 +61,38 @@
                 <div class="text-column col-lg-5 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <h2>IMPRINT</h2>
+                            <h2>IMPRESSUM</h2>
                         </div>
                         
-                        <p><b>1 General information</b></p>
-                        <p><b>2 Legal information</b></p>
-                       <p><b>3 Legal notice</b></p> <br><br>
-                        <p>Precious Gift e.V.</p>
+                        <p><b>1Allgemeine Information</b></p>
+                        <p><b>2 Rechtsinformation</b></p>
+                       <p><b>3 Impressum</b></p> <br><br>
+                        <p>Kostbares Geschenk e.V.</p>
                         <p>c/o Assy Nakiyingi -Bahner</p>
-                         <p>Friedrich-Heller Str. 15</p>
+                         <p>Friedrich-Heller-Str. 15</p>
                          <p>30455 Hannover</p>
-                         <p>Phone: +4915210172509</p>
-                         <p>e-mail: nakiyingiassybahner@gmail.com</p>
+                         <p>Telefon: +4915210172509</p>
+                         <p>E-Mail: nakiyingiassybahner@gmail.com</p>
                 </div>
                 </div>
                 <!--Image Column-->
                 <div class=" col-lg-5 col-md-12 col-sm-12">
                    <div class="inner">
                         <div class="sec-title">
-                            <h2>Association account</h2>
+                            <h2>Vereinskonto</h2>
                         </div>
                         
-                        <p><b>Bank owner:</b> Precious Gift e.v.</p>
-                        <p><b>Bank:</b> Deutsche Postbank AG</p>
+                        <p><b>Bankbesitzer:</b> Kostbares Geschenk e.v.</p>
+                        <p><b>Bank:</b> Deutsche PostbankAG</p>
                        <p><b>IBAN:</b> DE90 1001 0010 0941 7761 03</p> <br>
                         <p><b>BIC:</b>  PBNKDEFF</p>
                         
-                        <p>The imprint applies to: https://precious-gifts.org</p>
-                         <p><b>Register entry:</b></p>
-                         <p>Entered in the register of associations</p>
-                         <p><b>At the register court: </b>  Amtsregister Hannover</p>
-                         <p><b>Under the registration number:</b>   VR 203124</p>
-                         <p><b>Tax number: </b>   25/207/2070365</p>
+                        <p>Das Impressum gilt für: https://precious-gifts.org</p>
+                         <p><b>Registereintrag:</b></p>
+                         <p>Eingetragen im Vereinsregister</p>
+                         <p><b>Beim Registergericht: </b>  Amtsregister Hannover</p>
+                         <p><b>Unter der Registrierungsnummer:</b>   VR 203124</p>
+                         <p><b>Steuernummer: </b>  25/207/2070365</p>
                      
                 </div>
                 </div>
@@ -122,11 +116,11 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12"><br><br>
-                    <h2>Lets Join hands to save the world</h2>
+                    <h2>Lasst uns Hand in Hand gehen, um die Welt zu retten</h2>
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="/contact/create" class="theme-btn btn-style-one"><span class="btn-title">Talk to Us</span></a>
+                        <a href="/contact/create" class="theme-btn btn-style-one"><span class="btn-title">Rede mit uns</span></a>
                     </div>
                 </div>
             </div>
@@ -140,14 +134,6 @@
 
 @section('extra_scripts')
    {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
+
 
 @endsection

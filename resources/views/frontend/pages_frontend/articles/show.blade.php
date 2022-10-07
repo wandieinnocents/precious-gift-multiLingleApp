@@ -4,18 +4,9 @@
     Post Details
 @endsection
 
-@endsection
-
-@section('extra_styles')
-
- {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
-
- <link href="{{ asset('assets/frontend_assets/language/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script src="{{ asset('assets/frontend_assets/language/jquery.min.js') }}"></script>
 
 
-@endsection
+
 
 
 @section('content')
@@ -26,14 +17,14 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>posts</h1>
+            <h1>Beiträge</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Pages</a></li>
+                    <li><a href="index.html">Heim</a></li>
+                    <li><a href="index.html">Seiten</a></li>
                     <li class="active">Post</li>
                 </ul>
             </div>
@@ -99,7 +90,7 @@
                         <!-- Category Widget -->
                         <div class="sidebar-widget category-widget">
                             <div class="widget-inner">
-                                <h3>Categories</h3>
+                                <h3>Kategorien</h3>
                                 <div class="widget-content">
                                     <ul>@foreach($post_categories_fetch as $post_category)
                                         <li>
@@ -128,16 +119,3 @@
 @endsection
 
 
-@section('extra_scripts')
-   {{-- lang --}}
-<script type="text/javascript">
-    
-    var url = "{{ route('changeLang') }}";
-    
-    $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
-    });
-    
-</script>
-
-@endsection
